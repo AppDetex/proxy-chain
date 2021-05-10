@@ -17,7 +17,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AppDetex/proxy-chain.git"
+    "url": "git+https://github.com/apify/proxy-chain.git"
   },
   "bugs": {
     "url": "https://github.com/apify/proxy-chain/issues"

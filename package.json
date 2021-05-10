@@ -1,5 +1,5 @@
 {
-  "name": "proxy-chain",
+  "name": "@appdetex/proxy-chain",
   "version": "1.0.2",
   "description": "Node.js implementation of a proxy server (think Squid) with support for SSL, authentication, upstream proxy chaining, and protocol tunneling.",
   "main": "build/index.js",
@@ -10,18 +10,14 @@
     "tunnel",
     "puppeteer"
   ],
-  "author": {
-    "name": "Apify Technologies",
-    "email": "support@apify.com",
-    "url": "https://apify.com"
-  },
+  "author": "Apify Technologies <support@apify.com> (https://apify.com)",
   "contributors": [
     "Jan Curn <jan@apify.com>"
   ],
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/apify/proxy-chain"
+    "url": "git+https://github.com/AppDetex/proxy-chain.git"
   },
   "bugs": {
     "url": "https://github.com/apify/proxy-chain/issues"

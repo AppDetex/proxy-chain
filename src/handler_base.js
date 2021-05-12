@@ -83,6 +83,10 @@ export default class HandlerBase extends EventEmitter {
         this.server.log(this.id, str);
     }
 
+    err(str) {
+        this.server.log(this.id, str, true);
+    }
+
     // Abstract method, needs to be overridden
     run() {} // eslint-disable-line
 

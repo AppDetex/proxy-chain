@@ -58,7 +58,9 @@ export default class HandlerTunnelChain extends HandlerBase {
         if (this.checkUpstreamProxy407(response)) return;
 
         if (response.statusCode && (response.statusCode >= 400 && response.statusCode <= 599)) {
-            this.err(`Target responded with ${response.statusCode}: ${response.statusMessage} and headers ${JSON.stringify(response.headers)}`);
+            this.err(`Target responded with status: ${response.statusCode} ${response.statusMessage} and headers ${JSON.stringify(response.headers)}`);
+            this.err(`Host: ${this.trgRequest.host}`);
+            this.err(`Path: ${this.trgRequest.path}`);
             this.err('Response Body:');
             this.err(head);
         }
